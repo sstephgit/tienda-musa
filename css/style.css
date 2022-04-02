@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Source+Sans+Pro:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f7f0e8;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0;
+}
+/* NavBar */
+.logo {
+  height: 73%;
+  width: 35%;
+}
+
+.navbar {
+  height: 50px;
+  padding: 6px;
+  background-color: #ebc1c1;
+}
+
+.iconCart{
+  width: 30px;
+}
+.iconLogin{
+  width: 24px;
+  margin: 4px 12px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+.search {
+  left: 13%;
+  position: absolute;
+  width: 26%;
+  height: 21px;
+  margin-top: 6px;
+  border-radius: 50px;
+}
+
+.options {
+  float: right !important;
+}
+
+.options__butons {
+  width: 15%;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.category {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #f5d6d6;
+}
+
+/* Section Home */
+.product {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0px 50px 50px 50px;
+}
+
+.carousel {
+  height: 430px;
+  width: 100%;
+  position: relative;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.contactContainer {
+  display: flex;
+  background-color: #ebc1c1;
+  justify-content: space-between;
+}
+.iconItems{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactItem{
+  display: flex;
+  align-items: center;
+}
+
+.contactIcon{
+  width: 30px;
+  margin: 5px 8px 5px 21px
+
+} 
+
+.centerText {
+  text-align: center;
+}
+
+.socialMedia__title{
+  margin-right: 31px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 31vh;
+}
+
+.initButton {
+  margin: 39px;
+}
+
+.logoupButton {
+  margin: 70px;
+}
+
+.logoupLink {
+  margin: 42px;
+}
+
+.filter {
+  width: 80px;
+  height: 20px;
+  position: relative;
+  top: 20px;
+  left: 145px;
+}
+.itemCart__content {
+  display: flex;
+  flex-direction: column;
+}
+.itemCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemCart__image {
+  width: 100px;
+  border-radius: 50%;
+}
+.itemCart__detail {
+  margin: 60px;
+}
+.totalCart {
+  position: relative;
+  left: 65%;
+  margin-bottom: 20px;
+}
+.detailContent {
+  display: flex;
+  padding: 30px;
+}
+.thumbnailImage {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.imageDetail {
+  width: 450px;
+  margin: 0px 100px 0px 60px;
+}
+
+.productsContent{
+  display: grid;
+  grid-column: 20% 80%;
+  grid-row: auto;
+}

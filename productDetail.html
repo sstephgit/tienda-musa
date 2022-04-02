@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Tienda</title>
   </head>
   <body>
     <nav class="navbar">
       <ul>
         <li>
-          <a href="./index.html">Home</a>
+          <a href="./index.html">
+            <img class="logo" src="./image/logo.png" alt="logo" />
+          </a>
         </li>
         <li>
           <input
@@ -21,14 +23,17 @@
             placeholder="Buscar"
           />
         </li>
-        <li class="options">
+            <li class="options">
           <div class="inline">
-            <a href="./shoppingCart.html">Carrito</a>
+            <a href="./shoppingCart.html">
+              <img class="iconCart" src="./image/icons/shopping-cart-icon.png" alt="Cart">
+            </a>
           </div>
           <div class="inline">
-            <a href="./login.html">Iniciar</a>
+            <a href="./login.html">
+              <img class="iconLogin" src="./image/icons/avatar-icon.png" alt="login">
+            </a>
           </div>
-        </li>
       </ul>
     </nav>
     <ul class="category">
@@ -61,7 +66,7 @@
         </div>
       </div>
     </section>
-    <footer>
+   <footer>
       <ul class="category">
         <li>
           <a href="./products.html">CALZADO</a>
@@ -76,15 +81,52 @@
       <div class="contactContainer">
         <div>
           <p class="centerText">Contacto</p>
-          <img src="/image/icons/whatsapp-icon.png" alt="Whatsapp" />
-          <img src="/image/icons/mail-icon.png" alt="Email" />
-          <img src="/image/icons/map-icon.png" alt="Direccion" />
+          <ul class="iconItems">
+            <li class="contactItem">
+              <img
+                class="contactIcon"
+                src="/image/icons/whatsapp-icon.png"
+                alt="Whatsapp"
+              />
+              <p>11 5221111</p>
+            </li>
+            <li class="contactItem">
+              <img
+                class="contactIcon"
+                src="/image/icons/mail-icon.png"
+                alt="Email"
+              />
+              <p>tiendamusa@musa.com</p>
+            </li>
+            <li class="contactItem">
+              <img
+                class="contactIcon"
+                src="/image/icons/map-icon.png"
+                alt="Direccion"
+              />
+              <p>Av.cerrito 111</p>
+            </li>
+          </ul>
         </div>
         <div>
-          <p class="centerText">Redes Sociales</p>
-          <img src="/image/icons/facebook-icon.png" alt="Facebook" />
-          <img src="/image/icons/instagram-icon.png" alt="Instagram" />
-          <img src="/image/icons/tiktok-icon.png" alt="Tik Tok" />
+          <p class="centerText socialMedia__title">Redes Sociales</p>
+          <ul class="iconItems">
+            <li>
+              <a href="https://www.facebook.com" target="_blank">
+                <img class="contactIcon" src="/image/icons/facebook-icon.png" alt="Facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank">
+                <img class="contactIcon" src="/image/icons/instagram-icon.png" alt="Instagram" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/" target="_blank">
+                <img class="contactIcon" src="/image/icons/tiktok-icon.png" alt="Tik Tok" />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
