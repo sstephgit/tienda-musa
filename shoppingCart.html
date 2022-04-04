@@ -9,41 +9,31 @@
   </head>
   <body>
     <nav class="navbar">
-      <ul>
-        <li>
-          <a href="./index.html">
-            <img class="logo" src="./image/logo.png" alt="logo" />
+      <a href="./index.html">
+        <img class="logo" src="./image/logo.png" alt="logo" />
+      </a>
+
+      <input class="search" type="text" name="search" placeholder="Buscar" />
+      <div>
+        <div class="inline rigth">
+          <a href="./shoppingCart.html">
+            <img
+              class="iconCart"
+              src="./image/icons/shopping-cart-icon.png"
+              alt="Cart"
+            />
           </a>
-        </li>
-        <li>
-          <input
-            class="search"
-            type="text"
-            name="search"
-            placeholder="Buscar"
-          />
-        </li>
-        <li class="options">
-          <div class="inline">
-            <a href="./shoppingCart.html">
-              <img
-                class="iconCart"
-                src="./image/icons/shopping-cart-icon.png"
-                alt="Cart"
-              />
-            </a>
-          </div>
-          <div class="inline">
-            <a href="./login.html">
-              <img
-                class="iconLogin"
-                src="./image/icons/avatar-icon.png"
-                alt="login"
-              />
-            </a>
-          </div>
-        </li>
-      </ul>
+        </div>
+        <div class="inline rigth">
+          <a href="./login.html">
+            <img
+              class="iconLogin"
+              src="./image/icons/avatar-icon.png"
+              alt="login"
+            />
+          </a>
+        </div>
+      </div>
     </nav>
     <ul class="category">
       <li>
@@ -60,17 +50,17 @@
         <div class="itemCart">
           <img class="itemCart__image" src="image/imagen.png" alt="producto" />
           <p class="itemCart__detail">NOMBRE - TALLA/OPCION - PRECIO</p>
-          <input type="number" placeholder="cantidad" />
+          <input type="number" class="itemCart__qty" placeholder="cantidad" />
         </div>
         <div class="itemCart">
           <img class="itemCart__image" src="image/imagen.png" alt="producto" />
           <p class="itemCart__detail">NOMBRE - TALLA/OPCION - PRECIO</p>
-          <input type="number" placeholder="cantidad" />
+          <input type="number" class="itemCart__qty" placeholder="cantidad" />
         </div>
         <div class="itemCart">
           <img class="itemCart__image" src="image/imagen.png" alt="producto" />
           <p class="itemCart__detail">NOMBRE - TALLA/OPCION - PRECIO</p>
-          <input type="number" placeholder="cantidad" />
+          <input type="number" class="itemCart__qty" placeholder="cantidad" />
         </div>
 
         <div class="totalCart">
