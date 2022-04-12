@@ -9,13 +9,13 @@ a{
   max-width: max-content;
 }
 
-body {
+.body-old {
   position: relative;
   min-height: 100vh;
   padding-bottom: 216px;
 }
 
-.footer {
+.footer-old {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -35,7 +35,7 @@ body {
 }
 
 
-.navbar {
+.navbar-old {
   display: grid;
   grid-template-columns: 300px 24% auto;
   height: 50px;
@@ -224,13 +224,7 @@ li {
   margin: 42px;
 }
 
-.filter {
-  width: 80px;
-  height: 20px;
-  position: relative;
-  top: 20px;
-  left: 145px;
-}
+
 .itemCart__content {
   display: flex;
   flex-direction: column;
@@ -272,4 +266,21 @@ li {
   display: grid;
   grid-column: 20% 80%;
   grid-row: auto;
+}
+
+.navbar{
+  background-color: #f0bec1
+}
+
+.filter{
+  background-color:#f0bec1;
+  color: #8e3635;
+
+}
+.filter:hover{
+  color: #8e3635;
+}
+.filter:focus{
+  box-shadow: 0 0 0 0.25rem #8e363561;
+
 }
