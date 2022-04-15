@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-a{
+a {
   max-width: max-content;
 }
 
@@ -23,9 +23,9 @@ a{
 }
 
 html {
-  background-color: #f7f0e8;
   font-family: "Montserrat", sans-serif;
 }
+
 body {
   margin: 0;
 }
@@ -33,7 +33,6 @@ body {
 .logo {
   width: 45%;
 }
-
 
 .navbar-old {
   display: grid;
@@ -43,31 +42,30 @@ body {
   background-color: #ebc1c1;
 }
 
-@media only screen and (max-width:1340px) {
-  .detailContent{
+@media only screen and (max-width: 1340px) {
+  .detailContent {
     grid-template-columns: auto auto auto !important;
   }
 }
 
-@media only screen and (max-width:930px) {
-  .detailContent{
+@media only screen and (max-width: 930px) {
+  .detailContent {
     display: block !important;
   }
   .thumbnailImage {
     display: none;
   }
-  .imageDetail{
+  .imageDetail {
     width: 87% !important;
     margin: 0px 0px 0px 3% !important;
-  }  
-}
-
-@media only screen and (max-width:930px) {
-  .detailContent{
-    grid-template-columns: auto auto auto !important;
   }
 }
 
+@media only screen and (max-width: 930px) {
+  .detailContent {
+    grid-template-columns: auto auto auto !important;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .navbar {
@@ -76,49 +74,52 @@ body {
   .logo {
     width: 110px;
   }
-  .category{
+  .category {
     font-size: 13px;
   }
-  .itemCart__detail{
+  .itemCart__detail {
     margin: 14px !important;
     font-size: 10px;
   }
-  .itemCart__image{
+  .itemCart__image {
     width: 63px !important;
     margin: 10px;
   }
-  .itemCart__qty{
+  .itemCart__qty {
     width: 80px !important;
   }
-  .totalCart{
+  .totalCart {
     width: 85px !important;
     left: 68% !important;
     font-size: 10px !important;
   }
 }
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width: 350px) {
   .socialMedia__title {
-     margin-right: 0px !important; 
+    margin-right: 0px !important;
   }
   .logo {
     width: 74px;
   }
 }
-.itemCart__qty{
+.itemCart__qty {
   width: 120px;
 }
 
-
-.rigth{
+.rigth {
   float: right;
 }
+/*se usa*/
 .iconCart {
-  width: 30px;
+  width: 32px;
+  float: right;
 }
+/*se usa*/
 .iconLogin {
   width: 24px;
-  margin: 4px 12px;
+  float: right;
+
 }
 
 ul {
@@ -134,7 +135,7 @@ li {
 .search {
   height: 21px;
   margin-top: 6px;
-  border-radius: 50px
+  border-radius: 50px;
 }
 
 .options {
@@ -170,7 +171,7 @@ li {
   position: relative;
 }
 
-.card {
+.card-product  {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,7 +225,6 @@ li {
   margin: 42px;
 }
 
-
 .itemCart__content {
   display: flex;
   flex-direction: column;
@@ -241,12 +241,14 @@ li {
 }
 .itemCart__detail {
   margin: 60px;
+  color: #8e3635;
 }
 .totalCart {
   width: 167px;
   position: relative;
   left: 65%;
   margin-bottom: 20px;
+  color: #8e3635;
 }
 .detailContent {
   display: grid;
@@ -255,7 +257,7 @@ li {
   padding: 30px;
 }
 .thumbnailImage {
-  width: 150px; 
+  width: 150px;
 }
 .imageDetail {
   width: 450px;
@@ -267,20 +269,82 @@ li {
   grid-column: 20% 80%;
   grid-row: auto;
 }
+/*BOOSTRAP*/
 
-.navbar{
-  background-color: #f0bec1
+.navbar {
+  background-color: #f0bec1;
 }
-
-.filter{
-  background-color:#f0bec1;
-  color: #8e3635;
-
-}
-.filter:hover{
+.buttonNavbar {
+  border-color: #8e3635;
   color: #8e3635;
 }
-.filter:focus{
+.buttonNavbar:hover {
+  color: #fff;
+  background-color: #b78787;
+  border-color: #b78787;
+  box-shadow: 0 0 0 0.25rem #b78787;
+}
+
+.form-control:focus {
+  border-color: #b78787;
+  box-shadow: 0 0 0 0.25rem #b78787;
+}
+.card-title {
+  color: #8e3635;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #b78787;
+  border-color: #b78787;
+}
+.btn-primary:hover {
+  border-color: #8e3635;
+  background-color: #8e3635;
+}
+.btn-primary:active {
+  border-color: #8e3635;
+  background-color: #8e3635;
+}
+.btn-primary:active:focus {
+  border-color: #8e3635;
+  background-color: #8e3635;
+  box-shadow: 0 0 0 0.25rem #b78787;
+}
+.btn-primary:focus {
+  border-color: #8e3635;
+  background-color: #8e3635;
+  box-shadow: 0 0 0 0.25rem #b78787;
+}
+
+
+.filter {
+  background-color: #f0bec1;
+  color: #8e3635;
+}
+.filter:hover {
+  color: #8e3635;
+}
+.filter:focus {
   box-shadow: 0 0 0 0.25rem #8e363561;
+}
+.formTitle{
+  display: flex;
+  justify-content: center;
+  color: #8e3635;
+}
+
+.formContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #8e3635;
+}
+.buttonForm {
+  margin-left: 50%;
+}
+
+.formContainerDetails{
+  color: #8e3635;
 
 }
+
