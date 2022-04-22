@@ -1,0 +1,22 @@
+.navbar {
+  background-color: $third-color;
+  .buttonNavbar {
+    border-color: $primary-color;
+    color: $primary-color;
+    &:hover {
+      color: $fourth-color;
+      background-color: $secudary-color;
+      border-color: $secudary-color;
+      box-shadow: 0 0 0 0.25rem $secudary-color;
+    }
+  }
+  .iconCart {
+    width: 32px;
+    float: right;
+  }
+  .iconLogin {
+    width: 24px;
+    float: right;
+  }
+}
+
