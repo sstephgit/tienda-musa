@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Source+Sans+Pro:wght@300;400&display=swap");
 @import "./base/reset";
-@import "./base/variables";
+@import "./base/mapas";
+@import "./base/extend-mixin";
 @import "./base/mediaquerys";
 @import "./components/navbar";
 @import "./components/form";

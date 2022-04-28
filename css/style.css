@@ -13,6 +13,24 @@ body {
 a {
   max-width: max-content; }
 
+/*MIXIN*/
+.btn-primary, .btn-login, .btn-logup {
+  color: #fff;
+  background-color: #b78787;
+  border-color: #b78787; }
+  .btn-primary:hover, .btn-login:hover, .btn-logup:hover {
+    border-color: #8e3635;
+    background-color: #8e3635; }
+  .btn-primary:active:focus, .btn-login:active:focus, .btn-logup:active:focus {
+    border-color: #8e3635;
+    background-color: #8e3635;
+    box-shadow: 0 0 0 0.25rem #b78787; }
+
+/*EXTEND*/
+.btn-login, .btn-logup {
+  background-color: green;
+  border-color: green; }
+
 @media screen and (max-width: 500px) {
   .indexCarousel,
   .desktopDetail {
@@ -97,18 +115,6 @@ a {
 
 .buttonForm {
   margin-left: 50%; }
-
-.btn-primary {
-  color: #fff;
-  background-color: #b78787;
-  border-color: #b78787; }
-  .btn-primary:hover {
-    border-color: #8e3635;
-    background-color: #8e3635; }
-  .btn-primary:active:focus {
-    border-color: #8e3635;
-    background-color: #8e3635;
-    box-shadow: 0 0 0 0.25rem #b78787; }
 
 .selectFilter {
   width: 25%; }

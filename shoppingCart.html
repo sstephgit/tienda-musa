@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Somos un e-commerce,compra indumentaria,accesorios,calzados importados para mujer. Haz tu pedido y pagalo online."
+    />
+    <meta
+      name="keywords"
+      content="indumentaria,accesorio,calzado,ropa,vestido,short,pantalon,jeans,camisa,sueter,buzo,botas,reloj,pulseras,mujer,riñonera,cartera,compra,online"
+    />
+    <meta property="og:title" content="Musa combina contigo">
+    <meta property="og:description" content="Somos un e-commerce,compra indumentaria,accesorios,calzados importados para mujer. Haz tu pedido y pagalo online.">
+    <meta property="og:image" content="https://musa.com/musa.svg"> <!--provisional-->
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon"> 
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,7 +25,7 @@
     />
     <link rel="stylesheet" href="/css/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>Musa|Tienda de Ropa Online</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -86,14 +99,14 @@
       </div>
     </nav>
 
-    <div class="d-flex flex-column align-items-center">
+    <section class="d-flex flex-column align-items-center">
       <div class="card border-0 itemCart desktopDetail">
         <div class="row">
           <div class="col-3">
             <img
               src="/imagenes-tienda-musa/calzado/calzado1-1.1.png"
               class="img-fluid itemCart__img rounded-pill m-3"
-              alt="..."
+              alt="ropa mujer"
             />
           </div>
           <div class="col-5">
@@ -114,11 +127,11 @@
             src="./imagenes-tienda-musa/calzado/calzado1-1.1.png"
             height="300"
             class="card-img-top"
-            alt="..."
+            alt="ropa mujer"
           />
           <div class="card-body">
             <h5 class="card-title">Rose</h5>
-
+            <p class="card-text">precio / opciones / caracteristicas</p>
             <input type="number" class="form-control" placeholder="Cantidad" />
           </div>
         </div>
@@ -130,7 +143,7 @@
             <img
               src="/imagenes-tienda-musa/calzado/calzado1-1.1.png"
               class="img-fluid itemCart__img rounded-pill m-3"
-              alt="..."
+              alt="ropa mujer"
             />
           </div>
           <div class="col-5">
@@ -151,7 +164,7 @@
             src="./imagenes-tienda-musa/calzado/calzado1-1.1.png"
             height="300"
             class="card-img-top"
-            alt="..."
+            alt="ropa mujer"
           />
           <div class="card-body">
             <h5 class="card-title">Rose</h5>
@@ -161,58 +174,54 @@
         </div>
       </div>
 
-        <!--  -->
-        <div class="card border-0 itemCart desktopDetail">
-          <div class="row">
-            <div class="col-3">
-              <img
-                src="/imagenes-tienda-musa/calzado/calzado1-1.1.png"
-                class="img-fluid rounded-pill m-3"
-                alt="..."
-              />
-            </div>
-            <div class="col-5">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">precio / opciones / caracteristicas</p>
-              </div>
-            </div>
-            <div class="col-4 pt-5">
-              <input
-                type="number"
-                class="form-control"
-                placeholder="Cantidad"
-              />
-            </div>
-          </div>
-        </div>
-        <!-- mobile -->
-        <div data-aos="zoom-in" class="desktopCart">
-          <div class="card-product mb-5 mt-0" style="width: 18rem">
+      <!--  -->
+      <div class="card border-0 itemCart desktopDetail">
+        <div class="row">
+          <div class="col-3">
             <img
-              src="./imagenes-tienda-musa/calzado/calzado1-1.1.png"
-              height="300"
-              class="card-img-top"
-              alt="..."
+              src="/imagenes-tienda-musa/calzado/calzado1-1.1.png"
+              class="img-fluid rounded-pill m-3"
+              alt="ropa mujer"
             />
+          </div>
+          <div class="col-5">
             <div class="card-body">
-              <h5 class="card-title">Rose</h5>
-
-                <input type="number" class="form-control" placeholder="Cantidad" />
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">precio / opciones / caracteristicas</p>
             </div>
           </div>
-        </div>
-        <div>
-          <div class="card w-30 text-center float-end">
-            <h5 class="card-header">TOTAL</h5>
-            <div class="card-body">
-              <h5 class="card-title">8000$</h5>
-              <a href="#" class="btn btn-primary">COMPRAR</a>
-            </div>
+          <div class="col-4 pt-5">
+            <input type="number" class="form-control" placeholder="Cantidad" />
           </div>
         </div>
       </div>
-    </div>
+      <!-- mobile -->
+      <div data-aos="zoom-in" class="desktopCart">
+        <div class="card-product mb-5 mt-0" style="width: 18rem">
+          <img
+            src="./imagenes-tienda-musa/calzado/calzado1-1.1.png"
+            height="300"
+            class="card-img-top"
+            alt="ropa mujer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Rose</h5>
+
+            <input type="number" class="form-control" placeholder="Cantidad" />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card w-30 text-center float-end">
+          <h5 class="card-header">TOTAL</h5>
+          <div class="card-body">
+            <h5 class="card-title">8000$</h5>
+            <a href="#" class="btn btn-primary">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--  -->
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">

@@ -1,13 +1,13 @@
 .navbar {
-  background-color: $third-color;
+  background-color: map-get($colors, third-color);
   .buttonNavbar {
-    border-color: $primary-color;
-    color: $primary-color;
+    border-color: map-get($colors, primary-color);
+    color: map-get($colors, primary-color);
     &:hover {
-      color: $fourth-color;
-      background-color: $secudary-color;
-      border-color: $secudary-color;
-      box-shadow: 0 0 0 0.25rem $secudary-color;
+      color: map-get($colors, fourth-color);
+      background-color: map-get($colors, secudary-color);
+      border-color: map-get($colors, secudary-color);
+      box-shadow: 0 0 0 0.25rem map-get($colors, secudary-color);
     }
   }
   .iconCart {

@@ -1,0 +1,27 @@
+/*MIXIN*/
+@mixin colors {
+    border-color: map-get($colors, primary-color);
+      background-color: map-get($colors, primary-color);
+  }
+  .btn-primary {
+    color: map-get($colors, fourth-color);
+    background-color: map-get($colors, secudary-color);
+    border-color: map-get($colors, secudary-color);
+    &:hover {
+      @include colors;
+    }
+  
+    &:active:focus {
+      @include colors;
+      box-shadow: 0 0 0 0.25rem map-get($colors, secudary-color);
+    }
+  }
+  /*EXTEND*/
+  .btn-login{
+    @extend .btn-primary;
+    background-color: green;
+    border-color: green;
+  }
+  .btn-logup{
+    @extend .btn-login;
+  }

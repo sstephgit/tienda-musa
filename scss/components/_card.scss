@@ -1,5 +1,5 @@
 .card-title {
-    color: $primary-color;
+    color: map-get($colors, primary-color);
   }
   .card-img,
   .card-img-bottom,
