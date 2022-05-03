@@ -1,6 +1,18 @@
+@media screen and (max-width: 830px) {
+  .detailContent{
+    display: flex;
+    flex-direction: column;
+  }
+  .itemCart{
+    max-width: 70%;
+  }
+  .cartNav-item{
+    margin-left: 0px;
+  }
+}
 @media screen and (max-width: 500px) {
     .indexCarousel, 
-    .desktopDetail {
+    .desktopDetail,.search {
       display: none;
     }
     .card-img,
@@ -32,6 +44,12 @@
     .desktopCart{
       display: block;
     }
+    .iconMobile{
+      flex-direction: row;
+    }
+    .cartNav-item{
+      margin-left: 40px;
+    }
   }
   @media screen and (max-width: 390px) {
     .card-img,
@@ -48,16 +66,8 @@
     }
     .itemCart{
       max-width: 100%;
-    }
+    }   
   }
   
   
-  @media screen and (max-width: 830px) {
-    .detailContent{
-      display: flex;
-      flex-direction: column;
-    }
-    .itemCart{
-      max-width: 70%;
-    }
-  }
+ 

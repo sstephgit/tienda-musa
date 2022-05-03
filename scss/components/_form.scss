@@ -8,9 +8,9 @@
   display: flex;
   justify-content: center;
   color: map-get($colors, primary-color);
-  .formContainerDetails {
-    color: map-get($colors, primary-color);
-  }
+}
+.formContainerDetails {
+  color: map-get($colors, primary-color);
 }
 
 .form-control:focus {

@@ -19,8 +19,8 @@
   /*EXTEND*/
   .btn-login{
     @extend .btn-primary;
-    background-color: green;
-    border-color: green;
+    background-color:LightPink ;
+    border-color:LightPink ;
   }
   .btn-logup{
     @extend .btn-login;
