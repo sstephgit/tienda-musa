@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Source+Sans+Pro:wght@300;400&display=swap");
-@import "./base/reset";
-@import "./base/mapas";
-@import "./base/extend-mixin";
-@import "./components/navbar";
-@import "./components/form";
-@import "./components/card";
-@import "./components/cart";
-@import "./base/mediaquerys";
-
+@import "./base/reset", "./base/mapas", "./base/extend-mixin",
+  "./components/navbar", "./components/form", "./components/card",
+  "./components/cart", "./base/mediaquerys";
