@@ -1,73 +1,94 @@
+.carouselMobile {
+  display:none
+}
+.carouselDesktop{
+  display: block;
+}
+
+@media screen and (max-width: 991px){
+  .search {
+    display: none;
+  }
+  .iconMobile {
+    flex-direction: row;
+  }
+  .cartNav-item {
+    margin-left: 40px;
+  }
+}
+
 @media screen and (max-width: 830px) {
-  .detailContent{
+  .carouselDesktop,
+  .imgsDetail{
+    display: none;
+  }
+  
+  .carouselMobile {
+    display:block
+  }
+  .detailContent {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  .itemCart{
+  .itemCart {
     max-width: 70%;
-  }
-  .cartNav-item{
-    margin-left: 0px;
   }
 }
 @media screen and (max-width: 500px) {
-    .indexCarousel, 
-    .desktopDetail,.search {
-      display: none;
-    }
-    .card-img,
-    .card-img-bottom,
-    .card-img-top {
-      width: 75%;
-      display: flex;
-      justify-content: start;
-      margin: 0%;
-    }
-    .cardContent {
-      padding-top: 5%;
-      display: flex;
-      justify-content: center;
-      margin: 0%;
-    }
-    .selectFilter{
-      width: 50%;
-    }
-    .mobileDetail{
-      display: block;
-    }
-    .itemCart {
-      max-width: 40%
-    }
-    .itemCart__img{
-      width: 50%;
-    }
-    .desktopCart{
-      display: block;
-    }
-    .iconMobile{
-      flex-direction: row;
-    }
-    .cartNav-item{
-      margin-left: 40px;
-    }
+  .carouselDesktop,
+  .desktopDetail {
+    display: none;
   }
-  @media screen and (max-width: 390px) {
-    .card-img,
-    .card-img-bottom,
-    .card-img-top {
-      width: 50%;
-      height: 60%;
-      display: flex;
-      justify-content: start;
-      margin: 0%;
-    }
-    .cardContent {
-      padding-top: 3%
-    }
-    .itemCart{
-      max-width: 100%;
-    }   
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 75%;
+    display: flex;
+    justify-content: start;
+    margin: 0%;
+  }
+  .cardContent {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+  }
+  .card-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .selectFilter {
+    width: 50%;
+  }
+  .mobileDetail {
+    display: block;
+  }
+  .itemCart {
+    max-width: 40%;
+  }
+  .itemCart__img {
+    width: 50%;
+  }
+  .desktopCart {
+    display: block;
   }
   
+}
+@media screen and (max-width: 390px) {
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: start;
+    margin: 0%;
+  }
+  .cardContent {
+    padding-top: 3%;
+  }
   
- 
+}
