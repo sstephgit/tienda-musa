@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/styles.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/sstephgit/tienda-musa#readme",
   "devDependencies": {
+    "live-server": "^1.2.2",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   }
